@@ -31,7 +31,7 @@ m=int(input())
 print("The GCD of number is", GCD(n,m))
 ~~~
 ## Output:
-![Github logo](python.JPEG)
+![github logo](gcd_python.jpeg)
 
 ## Result:
 Thus the program to find the GCD of two numbers is written and verified using python programming.

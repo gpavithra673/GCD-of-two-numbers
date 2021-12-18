@@ -14,6 +14,7 @@ To write a program to find the GCD of two numbers using function.
 4. Use for() and if() loop to find the GCD of the two numbers.
 
 ## Program:
+~~~
 ```
 /*
 Program to find the gcd of two number using function.
@@ -21,10 +22,19 @@ Developed by:
 RegisterNumber:  
 */
 ```
-
+def GCD(x,y):
+    rem = x%y
+    if (rem == 0):
+        return y
+    else:
+        return GCD(y,rem)
+        
+n=int(input())
+m=int(input())
+print("The GCD of number is", GCD(n,m))
+~~~
 ## Output:
-![gcd of two number](gcd.png)
-
+![Github logo](gcdpython.png)
 
 ## Result:
 Thus the program to find the GCD of two numbers is written and verified using python programming.

@@ -15,12 +15,9 @@ To write a program to find the GCD of two numbers using function.
 
 ## Program:
 ~~~
-```
-/*
 Program to find the gcd of two number using function.
 Developed by:G.Pavithra
 RegisterNumber:21500148
-*/
 ```
 def GCD(x,y):
     rem = x%y
@@ -34,7 +31,7 @@ m=int(input())
 print("The GCD of number is", GCD(n,m))
 ~~~
 ## Output:
-![Github logo](gcdpython.PNG)
+![Github logo](gcdpython.png)
 
 ## Result:
 Thus the program to find the GCD of two numbers is written and verified using python programming.
